@@ -6,7 +6,9 @@
 
 3. Challenges
    Ensuring registers used for system calls and letter storage weren’t overwritten
+
    Properly pushing and popping registers to maintain the loop counter and letter across procedure calls
+
    Initially mishandling stack operations caused strange output or terminal freezes
 
 5. working code
