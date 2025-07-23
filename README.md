@@ -5,11 +5,11 @@
 
 
 3. Challenges
-   Ensuring registers used for system calls and letter storage weren’t overwritten
+   Ensuring registers used for system calls and letter storage weren’t overwritten.
 
-   Properly pushing and popping registers to maintain the loop counter and letter across procedure calls
+   Properly pushing and popping registers to maintain the loop counter and letter across procedure calls.
 
-   Initially mishandling stack operations caused strange output or terminal freezes
+   Initially mishandling stack operations caused strange output or terminal freezes.
 
 5. working code
    ![procedure](https://github.com/user-attachments/assets/82579b24-2ca0-43fc-aa17-20d3c7cc4301)
