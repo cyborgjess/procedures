@@ -1,20 +1,26 @@
-[printletters.txt](https://github.com/user-attachments/files/21810952/printletters.txt)# procedures
+# procedures
+
+[printletters.txt](https://github.com/user-attachments/files/21810952/printletters.txt)
 
 
 
-
-1. thought process
-   <img width="621" height="284" alt="procedures" src="https://github.com/user-attachments/assets/2bd4c7af-b378-4929-8861-010e5a618c1f" />
+1. Thought Process:
 
 
-2. Challenges
+    <img width="621" height="284" alt="procedures" src="https://github.com/user-attachments/assets/2bd4c7af-b378-4929-8861-010e5a618c1f" />
+
+
+3. Challenges:
+
+
    Ensuring registers used for system calls and letter storage weren’t overwritten.
 
    Properly pushing and popping registers to maintain the loop counter and letter across procedure calls.
 
    Initially mishandling stack operations caused strange output or terminal freezes.
 
-3. Working Code:
+
+4. Working Code:
 
   [printletters.txt](https://github.com/user-attachments/files/21810960/printletters.txt)
 section .bss
@@ -57,9 +63,6 @@ print_loop:
     mov eax, 1         
     xor ebx, ebx
     int 0x80
-
-
-
 
 
 
